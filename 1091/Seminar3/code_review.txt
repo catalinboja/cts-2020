@@ -1,0 +1,28 @@
+Code review
+1. Change the package structure
+	- the main package name: clase -> ro.ase.cts.g1091.seminar3.clase
+	- create a package structure
+2. Change the name of the Program.class -> TestApp.class
+3. Files
+	- use a standard for text files contet ->JSON
+	- use the same format rules for all files
+3. Code
+	- constructors with too many arguments
+	- the default ctor should private
+	- try to fit the content of the functions in one screen (reduce the width)
+	- Anagajt: finantare() -> the function just returns a constant value -  you don't need a function for that
+	- choose proper names : finantare ?????
+	- don't link the functions implementation to a specific GUI (here you linked it to a Console) - don't print strings, return them
+	
+4. Aplicant
+	- the "punctaj" means ? maybe punctajProiect is more clear....
+	- the "nr_proiecte" should respect the Java mixed Camel Case: nrProiecte
+	- you don't need nr_proiecte; it's redundant data
+	- "denumireProiect" it should be "denumireProiecte"; use the plural
+	- don't use hrad coded values (see statut)
+	
+5. Utils
+	- too dependent on other classes
+	- 
+	
+	

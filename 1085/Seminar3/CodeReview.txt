@@ -1,0 +1,39 @@
+Code Review seminar 3
+
+Proiect
+- nu este oganizat
+- numele pachetului de baza nu este ok ('clase') - trebuie sa fie ro.ase.csie.cts.g1085.seminar3.clase
+- 'Angajat', 'Student' trebuie puse intr-un subpachet numit .modele
+- 'Utils' intr-un subpachet 'Utilitare'
+
+
+clasa Program
+- numele clasei nu este relevant - poate 'TestMain' ar fi mai bine
+
+Observatii globale
+- numele variabilelor trebuie sa respecte mixed Camel Case
+
+Fisiere text
+- trebuie folosit un format standard: JSON
+- trebuie folosit acelasi format pentru toate fisierele
+
+
+Angajat
+- constructorul are prea multi parametri
+- codul sursa trebuie sa intre in ecran (fara slide left/right)
+- cosntructorul default nu trebuie sa fie public
+- in toString() evita concatenari cu +
+- numele functiei finantare() nu este elocvent (este confuz)
+- fara comentarii in functiei
+- fara System.out.println() in metode - clasa este legata de consola
+- vezi reguli generice legate de formatare cod
+
+Aplicant
+- punctaj pentru ce ?
+- atributul nr_proiecte este redundant
+- functia statut trebuie rescrisa
+- functia setNr_proiecte este gresita
+
+
+
+
