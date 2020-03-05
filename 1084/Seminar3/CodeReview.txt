@@ -1,0 +1,46 @@
+Code review
+
+1. Structura proiect
+- numele pachetelor nu corespunde conventiilor: ro.ase.cts.g1084
+- clasa Utils trebuie pusa in alt subpachet -> .utilitare
+- clasa Program trebuie redenumita TestAplicatie si trebuie pusa in alt subpachet .test
+- fisierele text trebuie puse intr-un director specific
+
+
+2. Fisiere
+- trebuie folosit formatul JSON
+- trebuie folosit acelasi format pentru toate fisierele
+
+3. Clase
+Angajat
+- constructorul are prea multi parametri
+- trebuie inclus intr-un singur ecran
+- costructorul default trebuie privat
+- numele finantare() este vag
+- 10 trebuie definit ca atribut static constant DIURNA_ZI = 10
+- functia finantare() nu se justifica
+- in loc de concatenare cu + foloseste StringBuilder sau StringBuffer
+- trebuie formatat codul
+
+Aplicant
+- trebuie folosit mixed CamelCase
+- denumireProiect -> denumireProiecte
+- atributul nr_proiecte trebuie eliminat - e redundant
+- functia statut trebuie rescrisa si redenumita (fara System.out); intoarce bool
+- metodele get/set trebuie grupate
+
+Elev
+- vezi observatii Angajat
+
+Student
+- denumire an_studii -> anStudii
+- vezi observatii Angajat
+
+
+4. Observatii generale
+- functiile nu trebuie sa mai afiseze cu System.out -> devin dependente de consola
+
+
+
+
+
