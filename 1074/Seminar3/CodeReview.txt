@@ -1,0 +1,54 @@
+Code review
+
+1. Structura proiect
+- numele pachetelor nu corespunde conventiilor: ro.ase.cts.g1074
+- clasa Utils trebuie pusa in alt subpachet -> .utilitare
+- clasa Program trebuie redenumita TestMain si trebuie pusa in alt subpachet .test
+- trebuie definit subpachetul .profesional care sa includa Angajat si Aplicant
+- trebuie definit subpachetul .educational care sa includa Student si Elev
+- fisierele text trebuie puse intr-un director specific
+
+
+2. Fisiere
+- trebuie folosit formatul JSON
+- trebuie folosit acelasi format pentru toate fisierele
+
+3. Clase
+Angajat
+- constructorul are prea multi parametri
+- trebuie inclus intr-un singur ecran
+- costructorul default trebuie privat/protected
+- numele finantare() este vag -> poate getTarifOrarProiect
+- 10 trebuie definit ca atribut static constant TARIF_ORAR_ZI = 10
+- functia finantare() nu se justifica
+- functia finantare nu trebuie sa afiseze mesaje la consola cu Syso
+- in loc de concatenare cu + foloseste StringBuilder sau StringBuffer
+- trebuie formatat codul
+
+Aplicant
+- trebuie folosit mixed CamelCase
+- denumireProiect -> denumireProiecte
+- atributul nr_proiecte trebuie eliminat - e redundant
+- functia statut trebuie rescrisa si redenumita esteAcceptat()(fara System.out); si intoarce bool
+- metodele get/set trebuie grupate
+
+Elev
+- vezi observatii Angajat
+
+Student
+- denumire an_studii -> anStudii
+- vezi observatii Angajat
+
+
+4. Observatii generale
+- functiile nu trebuie sa mai afiseze cu System.out -> devin dependente de consola
+
+
+Arhitectura
+- trebuie definita o interfata pentru finantare()
+- interfata trebuie implementata in Aplicant, care devine abstracta
+- trebuie supradefinita metoda toString() in Aplicant astfel incat sa arunce o exceptie si sa forteze clase derivate sa o supradefineasca
+
+
+
+
