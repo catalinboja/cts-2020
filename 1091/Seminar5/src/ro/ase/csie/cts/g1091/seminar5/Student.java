@@ -41,7 +41,14 @@ public class Student {
 	}
 	
 	
-	public float getGradesAverage() {
+	public float getGradesAverage() throws NullGradesException {
+		
+		if(this.grades == null)
+			throw new NullGradesException();
+		
+		if(this.grades.size() == 0)
+			return 0;
+		
 		float sum = 0;
 		for(int grade: this.grades) {
 			sum += grade;
