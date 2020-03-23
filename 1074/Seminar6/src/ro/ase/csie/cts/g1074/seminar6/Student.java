@@ -15,6 +15,10 @@ import ro.ase.csie.cts.g1074.seminar6.exceptii.ExceptieValoriStudent;
  */
 
 public class Student {
+	
+	public static final int VARSTA_MIN = 14;
+	public static final int VARSTA_MAX = 90;
+	
 	int varsta;
 	String nume;
 	ArrayList<Integer> note;
@@ -30,7 +34,9 @@ public class Student {
 		return varsta;
 	}
 
-	public void setVarsta(int varsta) {
+	public void setVarsta(int varsta) throws ExceptieValoriStudent {
+		if(varsta < VARSTA_MIN || varsta > VARSTA_MAX)
+			throw new ExceptieValoriStudent();
 		this.varsta = varsta;
 	}
 
