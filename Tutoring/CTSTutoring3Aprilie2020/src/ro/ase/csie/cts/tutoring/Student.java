@@ -18,6 +18,12 @@ public class Student implements InterfataValidariStudent{
 	int varsta;
 	ArrayList<Integer> note;
 	
+	private InterfataDB db;
+	
+	public void setDB(InterfataDB db) {
+		this.db = db;
+	}
+	
 	public Student(String nume, int varsta, ArrayList<Integer> note) {
 		super();
 		this.nume = nume;
@@ -40,6 +46,11 @@ public class Student implements InterfataValidariStudent{
 
 	public void setVarsta(int varsta) 
 			throws ExceptieStudentValoriInvalide {
+		
+		if(varsta < InterfataValidariStudent.VARSTA_MIN || 
+				varsta > InterfataValidariStudent.VARSTA_MAX)
+			throw new ExceptieStudentValoriInvalide();
+		
 		this.varsta = varsta;
 	}
 
@@ -71,6 +82,17 @@ public class Student implements InterfataValidariStudent{
 		
 		return (int)(medie * 100) / 100.0f;
 		
+	}
+	
+	public int insertStudentBazaDeDate() throws Exception {
+		
+		boolean succes = false;
+		if(this.db != null)
+			succes = this.db.insertStud(this);
+		else
+			throw new Exception("Lipsa referinta DB");
+	
+		return succes ? 1 : 0;
 	}
 	
 }
