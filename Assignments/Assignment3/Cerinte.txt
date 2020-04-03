@@ -1,0 +1,67 @@
+
+Fiind dat codul clasei Product, implementați un sistem de testare bazat pe JUnit pentru a verifica și corecta metodele clasei.
+
+Cerințe obligatorii
+
+Pentru fiecare cerință, este creat un Test Case care conține toate testele solicitate. (-1p dacă nu implementați aceasta cerinta)
+
+Pentru testarea condițiilor de eroare este obligatoriu să vă definiți propriile excepții personalizate. (-1p dacă nu implementați aceasta cerinta)
+
+Proiectul conține câte un pachet diferit pentru teste, excepții și clase. (-1p dacă nu implementați aceasta cerinta)
+
+Implementarea proiectului presupune corectarea (refactorizarea), implementarea metodelor din clasa dată și a cazurilor de testare. Fiecare test va conține tipul condiție testate în numele testului. (De ex. GetPercentOfBadWeeksCrossCheck ()). (-1p dacă nu implementați aceasta cerinta)
+
+Proiectul poate fi realizat folosind JUnit3, JUnit4 sau JUnit Jupiter.
+
+ 
+
+(3p) Cerința 1. Scrieți un TestCast care conține:
+
+cel puțin 1 test Right / Conformance pentru fiecare constructor
+
+cel puțin 2 teste Error Condition pentru fiecare constructor
+
+1 test Reference pentru constructorul care primește ArrayList
+
+1 test Existence pentru constructorul care primește ArrayList
+
+1 test Reference pentru setSales ()
+
+1 test Existence pentru setSales ()
+
+(3p) Cerința 2. Testați dacă metodele addWeek (), getSoldItems () și getNoWeeksAboveLimit () sunt implementate corect pentru diferite seturi de date de intrare. În caz contrar, metodele vor fi corectate. Test Case-ul trebuie să conțină, la nivelul fiecărei metode testate, cel puțin:
+
+1 test Right pentru fiecare metodă;
+
+1 test Range pentru a verifica o condiție pentru care funcția testată generează o excepție (pentru fiecare metodă);
+
+2 teste pentru verificarea limitelor extreme (Boundary) pentru fiecare metodă;
+
+2 teste de Cardinalitate pentru getNoWeeksAboveLimit ();
+
+2 teste de tip Ordering pentru getNoWeeksAboveLimit ();
+
+numai pentru getNoWeeksAboveLimit () un test de performanță / timp care va verifica dacă funcția returnează un rezultat sub 3 secunde pentru o lista cu 1000 de săptămâni
+
+2 teste la alegere pentru a verifica alte criterii (altele decât cele de mai sus) pentru orice metodă.
+
+(3p) Cerință 3. Scrieți un caz de testare pentru a testa getPercentOfBadWeeks () și getWeeksIndexWithMaxSales (). Pentru fiecare metodă, trebuie implementate următoarele teste unitare:
+
+1 test Right pentru fiecare metodă;
+
+1 test de tip Cross-Check;
+
+1 test de tip Inverse Relationship;
+
+2 teste la alegere pentru a verifica alte criterii (altele decât cele de mai sus) pentru oricare dintre cele 2 metode.
+
+(1p) Cerința 4. Definiți 2 suite de test
+
+o suită va conține toate testele unitare din toate cele 3 Test Case-uri anterioare
+
+o suită va conține doar câteva teste unitare selectate din cele 3 Test Case-uri anterioare (puteți alege propriile criterii)
+
+Important
+
+Proiectul se poate realiza în NetBeans, Eclipse sau IntelliJ.  Directorul proiectului are o denumire de forma Tema3_[grupa]_[nume_prenume]. Soluția se împachetează într-o arhivă .zip (NU rar sau 7zip) cu denumirea : Tema3_[grupa]_[nume_prenume].zip și se încarcă pe platforma online.ase.ro
+

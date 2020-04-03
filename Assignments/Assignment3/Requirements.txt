@@ -1,0 +1,61 @@
+
+Being given the Product class code, implement a JUnit-based test system to verify and correct the class methods.
+
+Mandatory requirements
+
+For each requirement, a test case is created that contains all test methods related to the requirement. (-1p if not )
+
+For testing Error Conditions it’s mandatory to define your own custom exceptions. (-1p if not )
+
+The project contains a different package for tests, exceptions and classes. (-1p if not )
+
+The implementation of the project involves the correction (refactoring) and implementation of the Product methods as well as the test cases and suites. Each method will contain the condition type in the test name. (Eg getPercentOfBadWeeksCrossCheck()). (-1p if not )
+
+The project can be done using JUnit3, JUnit4 or JUnit Jupiter.
+
+(3p) Requirement 1.Write a TestCast that contains:
+
+at least 1 Right/Conformance test for each constructor
+
+at least 2 Error Condition tests for each constructor
+
+1 Reference test for the constructor that receives the ArrayList
+
+1 Existence test  for the constructor that receives the ArrayList
+
+1 Reference test for setSales()
+
+1 Existence test for setSales()
+
+(3p) Requirement 2. Test if  the addWeek(), getSoldItems() and getNoWeeksAboveLimit() methods are correctly implemented for different input data sets. Otherwise, the methods will be corrected. The test case must contain, at the level of each tested method, at least:
+
+1 Right for each method;
+
+1 Range test to verify a condition for which the function being tested generates an exception (for each method);
+
+2 tests to check extreme limits (Boundary) for each method;
+
+2 Cardinality tests for getNoWeeksAboveLimit();
+
+2 Ordering tests for getNoWeeksAboveLimit();
+
+only for getNoWeeksAboveLimit() a Performance/Time test that will verify that the function return a result under 3 seconds for an array with 1000 weeks
+
+2 tests of your choice to verify other criteria (other than the above) for any method.
+
+(3p) Requirement 3. Write a Test Case to test getPercentOfBadWeeks() and getWeeksIndexWithMaxSales(). For each method, the following unit tests must be implemented:
+
+1 Right tests;
+
+1 Cross-Check test;
+
+1 Inverse Relationship test;
+
+2 tests of your choice to verify other criteria (other than the above) for any method.
+
+(1p) Requirement 4. Define 2 Test Suites that
+
+one suite will contain all unit tests from all previous 3 Test Cases
+
+one suite will contain just some unit tests from all previous 3 Test Cases (you can choose your own criteria)
+
