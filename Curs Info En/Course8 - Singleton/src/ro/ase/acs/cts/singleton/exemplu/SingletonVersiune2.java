@@ -10,6 +10,7 @@ public class SingletonVersiune2 {
     	instance = 
         		new SingletonVersiune2();
     }
+    
 
 	//constructor privat
     private SingletonVersiune2() { }

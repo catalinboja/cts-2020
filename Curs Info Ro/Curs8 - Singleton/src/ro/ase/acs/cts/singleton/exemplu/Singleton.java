@@ -2,10 +2,12 @@ package ro.ase.acs.cts.singleton.exemplu;
 
 import java.io.Serializable;
 
-public class Singleton implements Serializable{
+public class Singleton implements Serializable {
 
     private static Singleton instance = null;
     
+    
+    //exemplificare
     static{
     	System.out.println("Inainte de a incarca clasa");
     }
