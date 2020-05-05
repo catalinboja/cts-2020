@@ -1,4 +1,4 @@
-package ro.ase.csie.cts.g1091.seminar9;
+package ro.ase.csie.cts.g1091.seminar9.builder;
 
 public class SuperHero {
 	
@@ -101,7 +101,7 @@ public class SuperHero {
 		//and the others
 		
 		
-		SuperHero build() {
+		public SuperHero build() {
 			return this.superhero;
 		}
 		

@@ -39,8 +39,13 @@ public class TestBuilder {
 		
 		DispozitivMobil smartphone4 = 
 				new DispozitivMobil.DispozitivMobilBuilder("X6", "Samsung")
-				.adaugaWiFi()
 				.adaugaModulGPS(new GPSIntern())
+				.adaugaWiFi()
+				.build();
+		DispozitivMobil smartphone5 = 
+				new DispozitivMobil.DispozitivMobilBuilder("X6", "Samsung")
+				.adaugaModulGPS(new GPSIntern())
+				.adaugaWiFi()
 				.build();
 		
 	

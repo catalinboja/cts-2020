@@ -13,7 +13,7 @@ public class WordDocumentFactory extends AbstractDocumentFactory{
 		switch(tipDocument){
 		case TEXT:
 			//generare document text de tip Word - specific generatorului
-			document = new DocumentWordText();
+			document = new DocumentWordText("",0);
 			break;
 		case HTML:
 			document = new DocumentHtmlGeneric();

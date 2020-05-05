@@ -1,10 +1,10 @@
-package ro.ase.acs.cts.builder;
+package ro.ase.acs.cts.builder3;
 
 import ro.ase.acs.cts.module.InterfataDisplay;
 import ro.ase.acs.cts.module.InterfataExternalMemory;
 import ro.ase.acs.cts.module.InterfataGPS;
 
-public class DispozitivMobil {
+public class DispozitivMobilVer3 {
 	
 	//atribute
 	String model;
@@ -18,7 +18,7 @@ public class DispozitivMobil {
 	InterfataExternalMemory cardMemorie;
 	
 	//constructor default privat
-	private DispozitivMobil(){
+	private DispozitivMobilVer3(){
 		
 	}
 
@@ -50,43 +50,54 @@ public class DispozitivMobil {
 
 
 	//builder pentru clasa
-	public static class DispozitivMobilBuilder {
-		
-		private DispozitivMobil dispozitiv;
+	public static class DispozitivMobilBuilder{
+			
+		String model;
+		String producator;		
+		boolean areWiFi;
+		InterfataGPS modulGPS;
+		InterfataDisplay display;
+		InterfataExternalMemory cardMemorie;
 		
 		public DispozitivMobilBuilder(String model, String producator){
-			this.dispozitiv = new DispozitivMobil();
-			this.dispozitiv.model = model;
-			this.dispozitiv.producator = producator;
+			this.model = model;
+			this.producator = producator;
 		}
 		
 		//metoda pentru adaugare WiFi
 		public DispozitivMobilBuilder adaugaWiFi(){
-			this.dispozitiv.areWiFi = true;
+			this.areWiFi = true;
 			return this;
 		}
 		
 		//metoda pentru adaugare display
 		public DispozitivMobilBuilder adaugaDisplay(InterfataDisplay display){
-			this.dispozitiv.display = display;
+			this.display = display;
 			return this;
 		}
 		
 		//metoda pentru adaugare memorie
 		public DispozitivMobilBuilder adaugaCardMemorie(InterfataExternalMemory memorie){
-			this.dispozitiv.cardMemorie = memorie;
+			this.cardMemorie = memorie;
 			return this;
 		}
 		
 		//metoda pentru adaugare GPS
 		public DispozitivMobilBuilder adaugaModulGPS(InterfataGPS gps){
-			this.dispozitiv.modulGPS = gps;
+			this.modulGPS = gps;
 			return this;
 		}
 		
 		//metoda prin care se obtine obiectul creat
-		public DispozitivMobil build(){
-			return this.dispozitiv;
+		public DispozitivMobilVer3 build(){
+			DispozitivMobilVer3 dispozitiv = new DispozitivMobilVer3();
+			dispozitiv.producator = producator;
+			dispozitiv.model = model;
+			dispozitiv.areWiFi = areWiFi;
+			dispozitiv.cardMemorie = cardMemorie;
+			dispozitiv.modulGPS = modulGPS;
+			return dispozitiv;
+			
 		}
 	}
 }

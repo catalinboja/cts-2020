@@ -1,5 +1,6 @@
 package ro.ase.csie.cts.g1091.seminar9;
 
+import ro.ase.csie.cts.g1091.seminar9.builder.SuperHero;
 import ro.ase.csie.cts.g1091.seminar9.singleton.DBConnection;
 import ro.ase.csie.cts.g1091.seminar9.singleton.ProfileModule;
 import ro.ase.csie.cts.g1091.seminar9.singleton.SettingsModule;

@@ -16,7 +16,7 @@ public class OpenDocumentFactory extends AbstractDocumentFactory{
 		switch(tipDocument){
 		case TEXT:
 			//generare document text specific Open Office
-			document = new DocumentOpenOfficeText();
+			document = new DocumentOpenOfficeText("");
 			break;
 		case HTML:
 			document = new DocumentHtmlGeneric();

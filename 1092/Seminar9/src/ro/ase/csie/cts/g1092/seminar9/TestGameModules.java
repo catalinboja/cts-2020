@@ -1,5 +1,6 @@
 package ro.ase.csie.cts.g1092.seminar9;
 
+import ro.ase.csie.cts.g1092.seminar9.builder.SuperHero;
 import ro.ase.csie.cts.g1092.seminar9.singleton.DataModule;
 import ro.ase.csie.cts.g1092.seminar9.singleton.InterfaceModule;
 import ro.ase.csie.cts.g1092.seminar9.singleton.Logger;

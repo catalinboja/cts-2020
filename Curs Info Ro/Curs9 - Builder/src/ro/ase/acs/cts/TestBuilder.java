@@ -4,6 +4,7 @@ import ro.ase.acs.cts.builder.DispozitivMobil;
 import ro.ase.acs.cts.builder.DispozitivMobil.DispozitivMobilBuilder;
 import ro.ase.acs.cts.builder2.ACMESmartDeviceBuilder;
 import ro.ase.acs.cts.builder2.ConfiguratorDispozitiv;
+import ro.ase.acs.cts.builder3.DispozitivMobilVer3;
 import ro.ase.acs.cts.module.DisplaySuperAmoled;
 import ro.ase.acs.cts.module.GPSIntern;
 import ro.ase.acs.cts.module.SDCard;
@@ -39,6 +40,18 @@ public class TestBuilder {
 		
 		//peste 1000 de linii de cod
 		smartphone3.setProducator("Samsung");
+		
+		
+		DispozitivMobil dMobil = 
+				new DispozitivMobilBuilder("X", "Samsung")
+				.adaugaWiFi()
+				.adaugaCardMemorie(new SDCard(64))
+				.build();
+		
+		DispozitivMobilVer3 dMobil3 = 
+				new DispozitivMobilVer3.DispozitivMobilBuilder("X", "Samsung")
+				.adaugaWiFi()
+				.build();
 		
 		
 		
