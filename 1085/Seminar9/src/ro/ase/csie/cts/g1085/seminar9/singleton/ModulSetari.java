@@ -1,4 +1,4 @@
-package ro.ase.csie.cts.g1085.seminar9;
+package ro.ase.csie.cts.g1085.seminar9.singleton;
 
 public class ModulSetari {
 

@@ -1,6 +1,7 @@
 package ro.ase.csie.cts.g1084.seminar10;
 
 import ro.ase.csie.cts.g1084.seminar10.builder.SuperErou;
+import ro.ase.csie.cts.g1084.seminar10.prototype.Model3DCaracterJoc;
 
 public class TestClientJoc {
 

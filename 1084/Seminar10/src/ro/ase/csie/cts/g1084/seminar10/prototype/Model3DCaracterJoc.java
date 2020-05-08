@@ -1,4 +1,4 @@
-package ro.ase.csie.cts.g1084.seminar10;
+package ro.ase.csie.cts.g1084.seminar10.prototype;
 
 import java.util.ArrayList;
 
