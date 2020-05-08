@@ -11,7 +11,7 @@ public class DecoratorButonCuSunetSpecial extends DecoratorAbstractControlVizual
 	
 	@Override
 	public void click() {
-		//this.controlVizual.click();
+		this.controlVizual.click();
 		System.out.println("Click cu sunet din " + fisierSunet);
 	};
 

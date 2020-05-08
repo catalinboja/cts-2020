@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public abstract class Model3D implements Cloneable {
 	
-	private String id;
+	protected String id;
 	
 	protected ArrayList<Object> poligoane;
 	protected String tip;
 
 	abstract void draw();
 	
-	public Model3D() {
+	public Model3D(String tip) {
 		try {
 			System.out.println("Working ....");
 			Thread.currentThread().sleep(2000);
@@ -19,6 +19,11 @@ public abstract class Model3D implements Cloneable {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		this.tip = tip;
+	}
+	
+	public Model3D() {
+		
 	}
 
 	public String getType() {
@@ -37,7 +42,9 @@ public abstract class Model3D implements Cloneable {
 		return this.poligoane;
 	}
 
-	@Override
+	
+	//implementare prin shallow-copy
+/*	@Override
 	public Object clone() {
 		Object clone = null;
 
@@ -50,7 +57,10 @@ public abstract class Model3D implements Cloneable {
 		}
 
 		return clone;
-	}
+	}*/
+	
+	public abstract Object clone();
+	
 
 	@Override
 	public String toString() {

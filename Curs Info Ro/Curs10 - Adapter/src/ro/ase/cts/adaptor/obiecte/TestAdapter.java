@@ -19,11 +19,11 @@ public class TestAdapter {
 
 		
 		// colectie mesaje tipB
-		ArrayList<MesajTipB> mesajeTipB = new ArrayList<>();
+		ArrayList<InterfataTipB> mesajeTipB = new ArrayList<>();
 		mesajeTipB.add(new MesajTipB());
 		mesajeTipB.add(new MesajTipB());
 
-		for (MesajTipB mesaj : mesajeTipB)
+		for (InterfataTipB mesaj : mesajeTipB)
 			mesaj.display();
 
 		
@@ -42,10 +42,20 @@ public class TestAdapter {
 		}
 
 		
+		System.out.println("----------------------------");
+		
+		//cu Adapter
+		MesajTipA mA = new MesajTipA();
+		mA.setText("Exemplu de Adapter");
+		Adaptor a2B = new Adaptor(mA);
+		
+		mesajeTipB.add(a2B);
+		
+		for (InterfataTipB mesaj : mesajeTipB)
+			mesaj.display();
 		
 		
-		
-		
+		System.out.println("----------------------------");
 		
 		
 		

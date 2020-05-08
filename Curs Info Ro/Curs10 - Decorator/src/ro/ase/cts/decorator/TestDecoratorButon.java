@@ -16,12 +16,20 @@ public class TestDecoratorButon {
 		AbstractControlVizual butonLoginCuAnimatie = 
 				new DecoratorButonCuAnimatie(butonLogin);
 		
-		butonLoginCuAnimatie.click();
+		//butonLoginCuAnimatie.click();
 		
 		//decoram butonul de login cu sunet
 		AbstractControlVizual butonLoginCuSunet = 
 				new DecoratorButonCuSunetSpecial(butonLogin, "Click.wav");
-		butonLoginCuSunet.click();
+		//butonLoginCuSunet.click();
+		
+		
+		System.out.println("----------------------");
+		//decorare cu animatie si sunet
+		AbstractControlVizual butonLoginCuAnimatieSiSunet = 
+				new DecoratorButonCuSunetSpecial(butonLoginCuAnimatie, "Click2.wav");
+		butonLoginCuAnimatieSiSunet.click();
+		
 		
 		//decoram butonul Preia date cu un decorator ad-hoc anonim
 		AbstractControlVizual butonGetDateCuAltSunet = 

@@ -10,6 +10,8 @@ public class PrototypeFactory {
 	
 	private static HashMap<String,Model3D> prototipuri = new HashMap<>();
 	
+	
+	//eager instantiation
 	static {
 		//incarca prototipuri
 		
