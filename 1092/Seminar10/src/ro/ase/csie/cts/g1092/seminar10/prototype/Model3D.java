@@ -1,4 +1,4 @@
-package ro.ase.csie.cts.g1092.seminar10;
+package ro.ase.csie.cts.g1092.seminar10.prototype;
 
 import java.util.ArrayList;
 import java.util.Random;
