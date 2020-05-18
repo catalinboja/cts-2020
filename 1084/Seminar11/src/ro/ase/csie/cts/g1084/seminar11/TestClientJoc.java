@@ -3,6 +3,10 @@ package ro.ase.csie.cts.g1084.seminar11;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import ro.ase.csie.cts.g1084.seminar11.facade.ConexiuneBazaDate;
+import ro.ase.csie.cts.g1084.seminar11.facade.FacadeAPIJoc;
+import ro.ase.csie.cts.g1084.seminar11.facade.ForumJoc;
+import ro.ase.csie.cts.g1084.seminar11.facade.Profil;
 import ro.ase.csie.cts.g1084.seminar11.proxy.InterfataLogin;
 import ro.ase.csie.cts.g1084.seminar11.proxy.Login;
 import ro.ase.csie.cts.g1084.seminar11.proxy.ProxyLoginSecurizat;

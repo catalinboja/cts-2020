@@ -1,6 +1,6 @@
 package ro.ase.cts.g1092.seminar11.adapter;
 
-import ro.ase.cts.g1092.seminar11.AbstractDecorator;
+import ro.ase.cts.g1092.seminar11.decorator.AbstractDecorator;
 
 public class HitAlertDecorator  extends AbstractDecorator{
 

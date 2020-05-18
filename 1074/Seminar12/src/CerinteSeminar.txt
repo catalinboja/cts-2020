@@ -1,0 +1,19 @@
+
+
+Pentru dezvoltarea unui joc online (cu supereroi) sa se dezvolte o solutie software care
+
+
+1. Pentru a permite altor companii sau jucatorilor sa dezvolte solutii externe care sa se conecteze la joc trebuie dezvoltata o librarie (un API)
+- API-ul contine multe clase cu multe detalii
+- nu toate clasele sunt documentate
+- API-ul trebuie sa ofere o interfata simplificata pentru un set de functii de baza
+
+2. Pentru a gestiona o structura ierarhica de caractere (de ex o armata sau un grup de jucatori)
+- sa se gaseasca o solutie eficienta care sa permita 
+
+3. Adaugarea unui filtru suplimentar pentru login
+- in acest moment login-ul se face prin username si parola si in cazul in care parola este gresita utilizatorul poate incerca de mai multe ori
+- exista atacuri asupra conturilor jucatorilor iar atacatorul ghiceste parola aferenta contului dupa mai multe incercari
+- se doreste modificarea modulului de login prin limitarea numarului de incercari la maxim 3
+- modulul de login existent trebuie modificat fara a intrerupe jocul
+

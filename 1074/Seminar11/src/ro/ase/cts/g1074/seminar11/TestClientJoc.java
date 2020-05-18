@@ -6,6 +6,8 @@ import ro.ase.cts.g1074.seminar11.adapter.AdaptorDisney2Acme;
 import ro.ase.cts.g1074.seminar11.adapter.CaracterACME;
 import ro.ase.cts.g1074.seminar11.adapter.CaracterDisney;
 import ro.ase.cts.g1074.seminar11.adapter.SuperErouACME;
+import ro.ase.cts.g1074.seminar11.decorator.DecoratorAlertaRanitCritic;
+import ro.ase.cts.g1074.seminar11.decorator.DecoratorCuScut;
 
 public class TestClientJoc {
 	public static void main(String[] valori) {

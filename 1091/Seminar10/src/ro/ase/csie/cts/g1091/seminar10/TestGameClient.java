@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import ro.ase.csie.cts.g1091.seminar10.factory.AbstractWeaponsFactory;
 import ro.ase.csie.cts.g1091.seminar10.factory.ChildThemeWeaponsFactory;
 import ro.ase.csie.cts.g1091.seminar10.factory.NormalThemeWeaponsFactory;
+import ro.ase.csie.cts.g1091.seminar10.prototype.Model3D;
 import ro.ase.csie.cts.g1091.seminar10.simplefactory.AbstractWeapon;
 import ro.ase.csie.cts.g1091.seminar10.simplefactory.WeaponType;
 import ro.ase.csie.cts.g1091.seminar10.simplefactory.WeaponsFactory;

@@ -1,15 +1,13 @@
+To develop an online game (with superheroes) implement a software solution that allows:
 
-Pentru dezvoltarea unui joc online (cu supereroi) sa se dezvolte o solutie software care sa permita
+1. The use of an external library that contains Disney characters.
+- currently the game contains its own characters that are part of the ACME framework
 
-1. Utilizarea unei librarii externe ce contine caractere Disney.
-- in prezent jocul contine caractere proprii ce fac parte din framework-ul ACME
+2. Changing the characteristics of some superheroes during the game
+- During the game superheroes can be equipped with new equipment
+- the superhero's behavior can change dynamically depending on the interaction with the other characters in the game
 
-2. Modificarea in timpul jocului a caracteristicilor unor super-eroi
-- in timpul jocului super-eroii pot fi dotati cu echipamente noi
-- comportamentul super-eroului se poate modifica dinamic in functie de interactiunea cu celelalte caractere din joc
-
-2. Pentru a permite altor companii sau jucatorilor sa dezvolte solutii externe care sa se conecteze la joc trebuie dezvoltata o librarie (un API)
-- API-ul contine multe clase cu multe detalii
-- nu toate clasele sunt documentate
-- API-ul trebuie sa ofere o interfata simplificata pentru un set de functii de baza
-
+3. In order to allow other companies or players to develop external solutions that connect to the game, a library (an API) must be developed.
+- The API contains many classes with many details
+- not all classes are documented
+- The API should provide a simplified interface for a set of basic functions

@@ -8,6 +8,7 @@ import ro.ase.cts.g1092.seminar11.adapter.Disney2AcmeAdapter;
 import ro.ase.cts.g1092.seminar11.adapter.DisneyCharacter;
 import ro.ase.cts.g1092.seminar11.adapter.HitAlertDecorator;
 import ro.ase.cts.g1092.seminar11.adapter.LooneyToonChar;
+import ro.ase.cts.g1092.seminar11.decorator.ShieldDecorator;
 
 public class TestGameClient {
 

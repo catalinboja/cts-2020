@@ -8,6 +8,11 @@ import java.util.Map;
 public class CaracterFactory {
 	private Map<String, Caracter> caractere = new HashMap<String, Caracter>();
 	
+	static {
+		//create all the Flyweights
+		//another solution
+	}
+	
 	public Caracter getCaracter(String valoareCaracter){
 		Caracter caracter = caractere.get(valoareCaracter);
 		if (caracter == null){
