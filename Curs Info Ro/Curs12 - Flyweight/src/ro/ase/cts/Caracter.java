@@ -5,6 +5,8 @@ package ro.ase.cts;
 public class Caracter implements CaracterPrintabil{
 
 	private final String caracter;
+	private int fontSize;
+	//alte atribute specifice starii permanente
 	
 	public Caracter(String valoare){
 		this.caracter = valoare;

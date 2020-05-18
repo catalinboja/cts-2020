@@ -15,7 +15,7 @@ public class StructuraOrganizatorica extends NodStructuraIerarhica{
 	
 	@Override
 	public String getNume() {
-		throw new UnsupportedOperationException();
+		return this.numeStructura;
 	}
 
 	@Override
@@ -25,7 +25,11 @@ public class StructuraOrganizatorica extends NodStructuraIerarhica{
 
 	@Override
 	public double getSalariu() {
-		throw new UnsupportedOperationException();
+		float fondSalarii = 0 ;
+		for(NodStructuraIerarhica nod : this.elementeStructura) {
+			fondSalarii += nod.getSalariu();
+		}
+		return fondSalarii;
 	}
 	
 	@Override
