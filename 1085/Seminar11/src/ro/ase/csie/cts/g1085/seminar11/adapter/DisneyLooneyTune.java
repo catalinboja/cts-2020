@@ -1,4 +1,4 @@
-package ro.ase.csie.cts.g1085.seminar11;
+package ro.ase.csie.cts.g1085.seminar11.adapter;
 
 public class DisneyLooneyTune extends CaracterDisney{
 

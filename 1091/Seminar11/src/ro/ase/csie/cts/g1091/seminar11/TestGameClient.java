@@ -7,6 +7,8 @@ import ro.ase.csie.cts.g1091.seminar11.adapter.AcmeCharacterInterface;
 import ro.ase.csie.cts.g1091.seminar11.adapter.AdapterDisney2Acme;
 import ro.ase.csie.cts.g1091.seminar11.adapter.DisneyCharacter;
 import ro.ase.csie.cts.g1091.seminar11.adapter.DisneyLooneyTune;
+import ro.ase.csie.cts.g1091.seminar11.decorator.CriticalWoundedDecorator;
+import ro.ase.csie.cts.g1091.seminar11.decorator.ShieldDecorator;
 
 public class TestGameClient {
 

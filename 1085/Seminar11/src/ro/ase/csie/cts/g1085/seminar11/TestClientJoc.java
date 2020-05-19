@@ -2,6 +2,11 @@ package ro.ase.csie.cts.g1085.seminar11;
 
 import java.util.ArrayList;
 
+import ro.ase.csie.cts.g1085.seminar11.adapter.AdaptorDisney2Acme;
+import ro.ase.csie.cts.g1085.seminar11.adapter.CaracterACME;
+import ro.ase.csie.cts.g1085.seminar11.adapter.CaracterDisney;
+import ro.ase.csie.cts.g1085.seminar11.adapter.DisneyLooneyTune;
+import ro.ase.csie.cts.g1085.seminar11.adapter.InterfataCaractereACME;
 import ro.ase.csie.cts.g1085.seminar11.prototype.Model3DCaracter;
 
 public class TestClientJoc {
