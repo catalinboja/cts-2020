@@ -7,6 +7,8 @@ import ro.ase.csie.cts.g1084.seminar12.adapter.CaracterACME;
 import ro.ase.csie.cts.g1084.seminar12.adapter.CaracterDisney;
 import ro.ase.csie.cts.g1084.seminar12.adapter.InterfataCaractereACME;
 import ro.ase.csie.cts.g1084.seminar12.adapter.LooneyTune;
+import ro.ase.csie.cts.g1084.seminar12.decorator.DecoratorRanitCritic;
+import ro.ase.csie.cts.g1084.seminar12.decorator.DecoratorScut;
 
 public class TestClientJoc {
 

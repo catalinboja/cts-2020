@@ -1,4 +1,4 @@
-package ro.ase.csie.cts.g1084.seminar12;
+package ro.ase.csie.cts.g1084.seminar12.decorator;
 
 import ro.ase.csie.cts.g1084.seminar12.adapter.InterfataCaractereACME;
 
