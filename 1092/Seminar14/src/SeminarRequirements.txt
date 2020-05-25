@@ -1,0 +1,14 @@
+To develop an online game (with superheroes) implement a software solution that:
+
+1. Game characters actions are affected by their state
+- the gameplay is different
+- the action effects are different
+
+2. The game has an internal chat
+- we want to filter bad comments/messages
+- messages intended for a specific player will be private
+- broadcast messages shown to everybody
+
+3. The players need to be able to save their character during gameplay
+- they can save their character
+- they can restore the game to a previous state

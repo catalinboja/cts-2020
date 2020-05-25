@@ -1,0 +1,18 @@
+
+
+Pentru dezvoltarea unui joc online (cu supereroi) sa se dezvolte o solutie software care
+
+1. Comportamentul caracterul este influentat de stare lui
+- daca acesta este ranit miscarile sunt afectate
+- daca este afectat de actiunile magice ale celorlalte caractere, actiunile acestuia (modul in care ataca, se apara) sunt afectate
+
+2. Anumite evenimente din joc sunt tratate diferit de module interne
+- evenimentul poate fi tratat de catre toate modulelele
+- modulele sunt intr-o relatie de dependenta deoarece unele dintre acest module pot bloca transmiterea evenimentului catre celelalte
+- evenimentul este tratat diferit de modulele interne si fiecare modul poate decide daca evenimentul este transmis catre urmatoarele module
+
+3. Jucatorii au posibilitatea sa salveze starea jocului/caracterului si sa o restaureze mai tarziu
+- jucatorul poate relua jocul dintr-un anumit punct
+
+
+

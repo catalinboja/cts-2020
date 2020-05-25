@@ -27,6 +27,8 @@ public class TestStrategy {
 				return 0;
 			}
 		});
+		System.out.println(
+				"Result is "+colectie.proceseazaDate());
 	
 	}
 }
