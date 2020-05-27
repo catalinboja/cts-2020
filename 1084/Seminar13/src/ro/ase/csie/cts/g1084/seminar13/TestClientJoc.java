@@ -10,6 +10,10 @@ import ro.ase.csie.cts.g1084.seminar13.composite.Grup;
 import ro.ase.csie.cts.g1084.seminar13.flyweight.DetaliiAfisareEcran;
 import ro.ase.csie.cts.g1084.seminar13.flyweight.FactoryModele3D;
 import ro.ase.csie.cts.g1084.seminar13.flyweight.InterfataFlyModel3D;
+import ro.ase.csie.cts.g1084.seminar13.observer.ModulInstantaJoc;
+import ro.ase.csie.cts.g1084.seminar13.observer.ModulInterfataJoc;
+import ro.ase.csie.cts.g1084.seminar13.observer.ModulStareConexiune;
+import ro.ase.csie.cts.g1084.seminar13.observer.NotificareConexiune;
 
 public class TestClientJoc {
 	

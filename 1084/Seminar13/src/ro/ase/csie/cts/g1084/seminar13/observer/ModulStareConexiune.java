@@ -1,4 +1,4 @@
-package ro.ase.csie.cts.g1084.seminar13;
+package ro.ase.csie.cts.g1084.seminar13.observer;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

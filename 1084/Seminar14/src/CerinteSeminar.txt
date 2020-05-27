@@ -1,0 +1,23 @@
+
+Pentru dezvoltarea unui joc online (cu supereroi) sa se dezvolte o solutie software in care
+
+1. Comportamentul caracterului este influentat de stare lui
+- daca acesta este ranit miscarile sunt afectate
+- daca este afectat de actiunile magice ale celorlalte caractere, actiunile acestuia (modul in care ataca, se apara) sunt afectate
+
+2. Jocul are un chat intern
+- vrem sa filtram comentariile / mesajele care nu sunt potrivite
+- mesajele destinate unui anumit player vor fi private
+- difuzare mesaje destinate tuturor
+
+3. Jucatorii trebuie sa-si poata salva starea personajelor in timpul jocului
+- isi pot salva caracterul
+- pot reface jocul intr-o stare anterioara
+
+4. Clientul jocului trebuie sa efectueze sarcini in fundal fara a interfera cu derularea jocului (fara a-l bloca sau incetini)
+- backup de date client
+- primeste actualizari pentru forum
+- actualizati modele 3d
+- trebuie gasita o solutie prin care aceste task-uri sa fie executate fara a afecta executia jocului
+
+
